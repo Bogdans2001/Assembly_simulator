@@ -1,0 +1,5 @@
+start: INP R0 2
+    INP R1 2
+    ADD R1 R1 R0
+    OUT R1 4
+    HLT
